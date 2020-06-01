@@ -22,5 +22,12 @@ while not_stop == True:
             else:
                 print(num_one / num_two)
             
+        repetir = input("Desejas continuar [S]im ou [N]ão")
+
+        if repetir == 'S':
+            ...
+        else:
+            print("Obrigado, Volte Sempre !! :)")
+            break
     except ValueError:
         print("Só aceitamos Número :) ")
