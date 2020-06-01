@@ -16,6 +16,11 @@ while not_stop == True:
             print(num_one * num_two)
 
         elif operation == 'divisao':
-            print(num_one / num_two)
+            if num_two == 0:
+                print("Não dividimos por 0..")
+            
+            else:
+                print(num_one / num_two)
+            
     except ValueError:
         print("Só aceitamos Número :) ")
